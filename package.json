@@ -1,0 +1,30 @@
+{
+  "name": "plotly.js-benchmarks",
+  "version": "0.0.1",
+  "description": "Benchmarks for plotly.js",
+  "main": "index.js",
+  "scripts": {
+    "bench": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etpinard/plotly.js-benchmarks.git"
+  },
+  "author": "Étienne Tétreault-Pinard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etpinard/plotly.js-benchmarks/issues"
+  },
+  "homepage": "https://github.com/etpinard/plotly.js-benchmarks#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "karma": "^0.13.19",
+    "karma-benchmark": "^0.4.0",
+    "karma-browserify": "^5.0.1",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-plotly-reporter": "^0.1.0",
+    "plotly": "^1.0.6",
+    "plotly.js": "^1.5.0"
+  }
+}
