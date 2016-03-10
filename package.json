@@ -4,7 +4,9 @@
   "description": "Benchmarks for plotly.js",
   "main": "index.js",
   "scripts": {
-    "bench": "karma start karma.conf.js"
+    "postinstall": "node lib/postinstall",
+    "bench": "karma start karma.conf.js",
+    "plot": "node lib/plot.js"
   },
   "repository": {
     "type": "git",
@@ -18,13 +20,14 @@
   "homepage": "https://github.com/etpinard/plotly.js-benchmarks#readme",
   "dependencies": {
     "browserify": "^13.0.0",
+    "d3": "^3.5.16",
+    "fs-extra": "^0.26.5",
+    "glob": "^6.0.4",
     "karma": "^0.13.19",
-    "karma-benchmark": "^0.4.0",
     "karma-browserify": "^5.0.1",
     "karma-chrome-launcher": "^0.2.2",
+    "karma-custom": "^1.1.9",
     "karma-firefox-launcher": "^0.1.7",
-    "karma-plotly-reporter": "^0.1.0",
-    "plotly": "^1.0.6",
-    "plotly.js": "^1.5.0"
+    "plotly": "^1.0.6"
   }
 }
