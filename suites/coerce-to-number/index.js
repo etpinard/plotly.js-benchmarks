@@ -1,6 +1,6 @@
 'use strict';
 
-var run = require('../lib/run');
+var run = require('../../lib/run');
 
 // set the sample size
 var SAMPLE_SIZE = 100;

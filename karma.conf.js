@@ -18,7 +18,7 @@ if(suiteName === undefined) {
   throw new Error('Must provide a valid suite name');
 }
 
-var suitePath = 'suites/' + suiteName + '.js';
+var suitePath = path.join('suites', suiteName, 'index.js');
 
 
 function func(config) {

@@ -1,7 +1,7 @@
 'use strict';
 
 var d3 = require('d3');
-var run = require('../lib/run');
+var run = require('../../lib/run');
 
 var CLASS_NAME = 'container';
 
